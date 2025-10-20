@@ -170,7 +170,7 @@ initTheme()</script><script>const GLOBAL_CONFIG = {
 
 <p>如果成功的话，访问&lt;username&gt;.github.io就可以看到博客的界面了。</p>
 <h3 id="CNAME与自定义域名"><a href="#CNAME与自定义域名" class="headerlink" title="CNAME与自定义域名"></a>CNAME与自定义域名</h3><p>你应该为自己的域名进行如下设置：</p>
-<p><img src="/img-DNS.png"></p>
+<p><img src="/2025/10/20/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hexo%E5%BB%BA%E7%AB%8B%E8%87%AA%E5%B7%B1%E7%9A%84%E5%8D%9A%E5%AE%A2/img-DNS.png" alt="示例，不用照抄"></p>
 <p>主要参考<a target="_blank" rel="noopener" href="https://docs.github.com/zh/pages/configuring-a-custom-domain-for-your-github-pages-site/managing-a-custom-domain-for-your-github-pages-site">github pages自定义域管理</a></p>
 <p>要想设置自定义域名，应该在source&#x2F;中创建CNAME文件，这是因为：</p>
 <p>generate过程的本质是将其他文件夹的数据（source等）迁移到public；当source文件夹中创建CNAME时，generate时就会自动在public中也生成CMAKE文件，避免github重新生成此文件导致配置dns失效。</p>
